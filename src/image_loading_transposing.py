@@ -9,6 +9,9 @@ Created on 11 set 2017
 import matplotlib.image as mpimg
 import os
 
+import seaborn as sns
+sns.set()
+
 image = mpimg.imread('./../images/MarshOrchid.jpg')
 print(image.shape)
 
